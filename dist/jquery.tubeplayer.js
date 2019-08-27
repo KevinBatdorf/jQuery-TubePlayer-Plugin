@@ -338,7 +338,7 @@
                     'start': o.start,
                     'color': o.color,
                     'playsinline': o.playsinline,
-                    'origin': window.location.origin
+                    'origin': window.parent.location.origin ? window.parent.location.origin : window.location.origin
                 },
                 events: {
                     'onReady': function(evt) {
