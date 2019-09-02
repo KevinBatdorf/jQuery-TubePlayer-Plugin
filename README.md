@@ -1,3 +1,9 @@
+MetaSlider fork of jQuery TubePlayer Plugin
+
+https://wordpress.org/plugins/ml-slider
+
+https://github.com/DavidAnderson684/jQuery-TubePlayer-Plugin
+
 # jQuery TubePlayer Plugin
 
 A jQuery wrapper around the YouTube Player API.
