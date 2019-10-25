@@ -325,6 +325,7 @@
                 videoId: o.initialVideo,
                 width: o.width,
                 height: o.height,
+                host: o.host,
                 playerVars: {
                     'autoplay': (o.autoPlay ? 1 : 0),
                     'controls': (o.controls ? o.controls : 0),
