@@ -144,6 +144,7 @@
         // public facing
         width: 480,
         height: 270,
+        host: null,
         allowFullScreen: "true",
         initialVideo: "DkoeNLuMbcI",
         start: 0,
@@ -325,6 +326,7 @@
                 videoId: o.initialVideo,
                 width: o.width,
                 height: o.height,
+                host: o.host,
                 playerVars: {
                     'autoplay': (o.autoPlay ? 1 : 0),
                     'controls': (o.controls ? o.controls : 0),
